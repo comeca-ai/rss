@@ -1,0 +1,6357 @@
+{
+  "metadata": {
+    "fonte": "Guia de Mídia",
+    "estado": "Ceará",
+    "sigla": "CE",
+    "dataProcessamento": "2026-01-13T15:46:27.562Z",
+    "versao": "1.0.0",
+    "estatisticas": {
+      "total": 191,
+      "processados": 170,
+      "comRSS": 70,
+      "comSearch": 15,
+      "semRecursos": 85,
+      "erros": 0
+    }
+  },
+  "veiculos": [
+    {
+      "nome": "Conexão Correio",
+      "url": "http://conexaocorreio.com.br/",
+      "cidade": "Juazeiro do Norte",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:46:28.258Z",
+        "tempoProcessamento": 3.986,
+        "feeds": [
+          {
+            "url": "https://www.conexaocorreio.com.br/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Conexão Correio",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Correio Cearense",
+      "url": "http://correiocearense.com.br/",
+      "cidade": "Juazeiro do Norte",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:46:33.246Z",
+        "tempoProcessamento": 1.129,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://correiocearense.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:46:34.375Z",
+        "tempoProcessamento": 0.096,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://correiocearense.com.br/"
+      }
+    },
+    {
+      "nome": "Diário do Cariri",
+      "url": "http://www.diariodocariri.com/",
+      "cidade": "Barbalha",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:46:35.472Z",
+        "tempoProcessamento": 6.987,
+        "feeds": [
+          {
+            "url": "http://www.diariodocariri.com/rss.xml",
+            "tipo": "descoberto",
+            "titulo": "<![CDATA[  Diário do Cariri   ]]> Rss",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "http://www.diariodocariri.com/feed.xml",
+            "tipo": "descoberto",
+            "titulo": "<![CDATA[  Diário do Cariri   ]]> Rss",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "http://www.diariodocariri.com/atom.xml",
+            "tipo": "descoberto",
+            "titulo": "<![CDATA[  Diário do Cariri   ]]> Rss",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "http://www.diariodocariri.com/index.xml",
+            "tipo": "descoberto",
+            "titulo": "<![CDATA[  Diário do Cariri   ]]> Rss",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Diário do Nordeste",
+      "url": "http://www.diariodonordeste.com.br/",
+      "cidade": "Fortaleza / CE",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:46:43.460Z",
+        "tempoProcessamento": 1.832,
+        "feeds": [
+          {
+            "url": "https://diariodonordeste.verdesmares.com.br/cmlink/feed-1.3009099",
+            "tipo": "descoberto",
+            "titulo": "<![CDATA[feed]]>",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://diariodonordeste.verdesmares.com.br/cmlink/dow-jones-1.2963165",
+            "tipo": "descoberto",
+            "titulo": "<![CDATA[dow jones]]>",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Diário Oficial do Estado do CE",
+      "url": "http://www.casacivil.ce.gov.br/index.php/diario-oficial",
+      "cidade": null,
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:46:46.293Z",
+        "tempoProcessamento": 0.901,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:46:47.194Z",
+        "tempoProcessamento": 0.169,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Diário Oficial Município de Fortaleza",
+      "url": "http://www.fortaleza.ce.gov.br/diarios-oficiais",
+      "cidade": null,
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:46:48.364Z",
+        "tempoProcessamento": 3.988,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: Execution context was destroyed, most likely because of a navigation."
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:46:52.352Z",
+        "tempoProcessamento": 0.316,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Diário Sobralense",
+      "url": "https://www.diariosobralense.com/",
+      "cidade": "Sobral",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:46:53.669Z",
+        "tempoProcessamento": 6.641,
+        "feeds": [
+          {
+            "url": "https://www.diariosobralense.com/feeds/posts/default",
+            "tipo": "descoberto",
+            "titulo": "Diário Sobralense News",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          },
+          {
+            "url": "https://www.diariosobralense.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Diário Sobralense News",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          },
+          {
+            "url": "https://www.blogger.com/feeds/6511162999719702283/posts/default",
+            "tipo": "descoberto",
+            "titulo": "Diário Sobralense News",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Folha Belacruzense",
+      "url": "http://www.folhabelacruzense.com.br/",
+      "cidade": "Bela Cruz",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:47:01.311Z",
+        "tempoProcessamento": 0.109,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.folhabelacruzense.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:47:01.420Z",
+        "tempoProcessamento": 0.129,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.folhabelacruzense.com.br/"
+      }
+    },
+    {
+      "nome": "Folha do Sertão CE",
+      "url": "http://www.folhadosertaoce.com.br/",
+      "cidade": "Boa Viagem",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:47:02.550Z",
+        "tempoProcessamento": 3.097,
+        "feeds": [
+          {
+            "url": "https://folhadosertaoce.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Folha do Sertão Cearense",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://folhadosertaoce.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Gazeta de Notícias",
+      "url": "http://www.gazetadenoticias.com/",
+      "cidade": "Crato / Juazeiro do Norte",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:47:06.648Z",
+        "tempoProcessamento": 9.244,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:47:15.893Z",
+        "tempoProcessamento": 1.371,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Jornal A Praça",
+      "url": "http://www.jornalapraca.com.br/",
+      "cidade": "Iguatu",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:47:18.267Z",
+        "tempoProcessamento": 5.194,
+        "feeds": [
+          {
+            "url": "https://www.jornalapraca.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Jornal A Praça",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://www.jornalapraca.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Jornal Ceará",
+      "url": "https://jornalceara.com/",
+      "cidade": null,
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:47:24.463Z",
+        "tempoProcessamento": 2.036,
+        "feeds": [
+          {
+            "url": "https://jornalceara.com/feed/",
+            "tipo": "descoberto",
+            "titulo": "JORNAL CEARÁ",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://jornalceara.com/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": "Comentários sobre JORNAL CEARÁ",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Jornal Correio da Semana",
+      "url": "http://www.correiodasemana.com.br/",
+      "cidade": "Sobral",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:47:27.500Z",
+        "tempoProcessamento": 2.049,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: Execution context was destroyed, most likely because of a navigation."
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:47:29.550Z",
+        "tempoProcessamento": 0.358,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Execution context was destroyed, most likely because of a navigation."
+      }
+    },
+    {
+      "nome": "Jornal do Cariri",
+      "url": "http://www.jornaldocariri.com.br/",
+      "cidade": "Juazeiro do Norte",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:47:30.908Z",
+        "tempoProcessamento": 17.052,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:47:47.960Z",
+        "tempoProcessamento": 3.09,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.jornaldocariri.com.br/"
+      }
+    },
+    {
+      "nome": "Jornal do Cariri",
+      "url": "https://jornaldocariri.com.br/",
+      "cidade": "[ Região do Cariri ]",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:47:52.051Z",
+        "tempoProcessamento": 14.964,
+        "feeds": [
+          {
+            "url": "https://jornaldocariri.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Jornal do Cariri",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://jornaldocariri.com.br/rss/",
+            "tipo": "descoberto",
+            "titulo": "Jornal do Cariri",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://jornaldocariri.com.br/?feed=rss",
+            "tipo": "descoberto",
+            "titulo": "Jornal do Cariri",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://jornaldocariri.com.br/?feed=rss2",
+            "tipo": "descoberto",
+            "titulo": "Jornal do Cariri",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://jornaldocariri.com.br/?feed=atom",
+            "tipo": "descoberto",
+            "titulo": "Jornal do Cariri",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Jornal Jangadeiro",
+      "url": "https://jornaljangadeiro.com.br/",
+      "cidade": "Fortaleza",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:48:08.017Z",
+        "tempoProcessamento": 2.028,
+        "feeds": [
+          {
+            "url": "https://www.jangadeiro.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "TV Jangadeiro",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Jornal O Povo",
+      "url": "https://www.opovo.com.br/",
+      "cidade": "Fortaleza / CE",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:48:11.046Z",
+        "tempoProcessamento": 6.645,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:48:17.691Z",
+        "tempoProcessamento": 0.201,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Jornal Vale em Destaque",
+      "url": "http://jornalvaleemdestaque.com.br/",
+      "cidade": "Quixerê",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:48:18.893Z",
+        "tempoProcessamento": 0.114,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://jornalvaleemdestaque.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:48:19.007Z",
+        "tempoProcessamento": 0.085,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://jornalvaleemdestaque.com.br/"
+      }
+    },
+    {
+      "nome": "Tribuna CE",
+      "url": "https://www.tribunace.com.br/",
+      "cidade": "Fortaleza",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:48:20.093Z",
+        "tempoProcessamento": 0.339,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://www.tribunace.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:48:20.432Z",
+        "tempoProcessamento": 0.121,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://www.tribunace.com.br/"
+      }
+    },
+    {
+      "nome": "Tribuna Cearense",
+      "url": "https://tribunacearense.com.br/",
+      "cidade": null,
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:48:21.555Z",
+        "tempoProcessamento": 13.55,
+        "feeds": [
+          {
+            "url": "https://tribunacearense.com.br/feed",
+            "tipo": "descoberto",
+            "titulo": "Tribuna Cearense Notícias",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://tribunacearense.com.br/comments/feed",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Tribuna dos Vales",
+      "url": "http://www.tribunadosvales.com/",
+      "cidade": "Santana do Acaraú",
+      "tipo": "Jornais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:48:36.108Z",
+        "tempoProcessamento": 4.094,
+        "feeds": [
+          {
+            "url": "https://tribunadosvales.com/feed/",
+            "tipo": "descoberto",
+            "titulo": "Tribuna Dos Vales",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          },
+          {
+            "url": "https://tribunadosvales.com/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Acaraú Notícias",
+      "url": "https://portalacaraunoticias.com/",
+      "cidade": "Acaraú",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:48:41.203Z",
+        "tempoProcessamento": 0.228,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://portalacaraunoticias.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:48:41.431Z",
+        "tempoProcessamento": 0.216,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://portalacaraunoticias.com/"
+      }
+    },
+    {
+      "nome": "Portal AVOL",
+      "url": "http://www.antonioviana.com.br/",
+      "cidade": "Fortaleza",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:48:42.649Z",
+        "tempoProcessamento": 2.6,
+        "feeds": [
+          {
+            "url": "https://antonioviana.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Antonio Viana",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://antonioviana.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Portal C4 Notícias",
+      "url": "http://www.c4noticias.com.br/",
+      "cidade": "Canindé",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:48:46.251Z",
+        "tempoProcessamento": 3.667,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:48:49.918Z",
+        "tempoProcessamento": 0.099,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Portal Canindé",
+      "url": "http://www.portalcaninde.net/",
+      "cidade": "Canindé",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:48:51.017Z",
+        "tempoProcessamento": 1.176,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.portalcaninde.net/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:48:52.193Z",
+        "tempoProcessamento": 0.193,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.portalcaninde.net/"
+      }
+    },
+    {
+      "nome": "Portal Chavalzada",
+      "url": "http://www.chavalzada.com/",
+      "cidade": "Chaval",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:48:53.385Z",
+        "tempoProcessamento": 5.32,
+        "feeds": [
+          {
+            "url": "https://www.chavalzada.com/feeds/posts/default",
+            "tipo": "descoberto",
+            "titulo": "Chavalzada - Notícias de Chaval, Ceará e Brasil",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          },
+          {
+            "url": "https://www.chavalzada.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Chavalzada - Notícias de Chaval, Ceará e Brasil",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          },
+          {
+            "url": "https://www.blogger.com/feeds/2558328494284366267/posts/default",
+            "tipo": "descoberto",
+            "titulo": "Chavalzada - Notícias de Chaval, Ceará e Brasil",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Portal CN7",
+      "url": "https://cn7.com.br/",
+      "cidade": "Fortaleza",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:48:59.706Z",
+        "tempoProcessamento": 4.962,
+        "feeds": [
+          {
+            "url": "https://cn7.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "CN7",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://cn7.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Portal Conceituado",
+      "url": "http://www.conceituado.com/",
+      "cidade": "Fortaleza",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:49:05.670Z",
+        "tempoProcessamento": 4.979,
+        "feeds": [
+          {
+            "url": "https://www.conceituado.com/feed/",
+            "tipo": "descoberto",
+            "titulo": "ConceituAdo | por Philippe Felix",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://www.conceituado.com/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Portal de Juazeiro",
+      "url": "http://www.portaldejuazeiro.com/",
+      "cidade": "Juazeiro do Norte",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:49:11.651Z",
+        "tempoProcessamento": 7.915,
+        "feeds": [
+          {
+            "url": "https://www.portaldejuazeiro.com.br/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Portal de Juazeiro",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Portal de Notícia CE",
+      "url": "http://www.portaldenoticiace.com.br/",
+      "cidade": "Pedra Branca",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:49:20.568Z",
+        "tempoProcessamento": 0.258,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.portaldenoticiace.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:49:20.826Z",
+        "tempoProcessamento": 0.2,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.portaldenoticiace.com.br/"
+      }
+    },
+    {
+      "nome": "Portal GCMais",
+      "url": "https://gcmais.com.br/",
+      "cidade": "Fortaleza / CE",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:49:22.028Z",
+        "tempoProcessamento": 3.122,
+        "feeds": [
+          {
+            "url": "https://gcmais.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Portal GCMAIS",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://gcmais.com.br/web-stories/feed/",
+            "tipo": "descoberto",
+            "titulo": "Arquivo Story",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Portal Iguatu",
+      "url": "http://www.iguatu.org/",
+      "cidade": "Iguatu",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:49:26.151Z",
+        "tempoProcessamento": 0.154,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.iguatu.org/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:49:26.305Z",
+        "tempoProcessamento": 0.094,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.iguatu.org/"
+      }
+    },
+    {
+      "nome": "Portal IN",
+      "url": "https://www.portalin.com.br/",
+      "cidade": "Fortaleza",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:49:27.400Z",
+        "tempoProcessamento": 4.61,
+        "feeds": [
+          {
+            "url": "https://www.portalin.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Portal IN &#8211; Pompeu Vasconcelos &#8211; Balada IN",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Portal Info Camocim",
+      "url": "https://portalinfocamocim.com/",
+      "cidade": "Camocim",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:49:33.011Z",
+        "tempoProcessamento": 1.255,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://portalinfocamocim.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:49:34.266Z",
+        "tempoProcessamento": 0.417,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://portalinfocamocim.com/"
+      }
+    },
+    {
+      "nome": "Portal Ipaumirim",
+      "url": "http://ipaumirim.com/",
+      "cidade": "Ipaumirim",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:49:35.684Z",
+        "tempoProcessamento": 12.587,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:49:48.271Z",
+        "tempoProcessamento": 3.117,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://ipaumirim.com/"
+      }
+    },
+    {
+      "nome": "Portal MaracaNet",
+      "url": "https://maracanet.com/",
+      "cidade": "Maracanaú",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:49:52.389Z",
+        "tempoProcessamento": 20.818,
+        "feeds": [
+          {
+            "url": "https://maracanet.com/feed/",
+            "tipo": "descoberto",
+            "titulo": "Maracanet",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Portal na Mira da Polícia",
+      "url": "http://www.portalnamiradapolicia.com.br/",
+      "cidade": "Sobral",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:50:14.207Z",
+        "tempoProcessamento": 0.108,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.portalnamiradapolicia.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:50:14.315Z",
+        "tempoProcessamento": 0.091,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.portalnamiradapolicia.com.br/"
+      }
+    },
+    {
+      "nome": "Portal Netcina",
+      "url": "http://www.netcina.com.br/",
+      "cidade": "Ipu",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:50:15.407Z",
+        "tempoProcessamento": 4.383,
+        "feeds": [
+          {
+            "url": "http://www.netcina.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "http://www.netcina.com.br/rss/",
+            "tipo": "descoberto",
+            "titulo": "",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "http://www.netcina.com.br/?feed=rss",
+            "tipo": "descoberto",
+            "titulo": "",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "http://www.netcina.com.br/?feed=rss2",
+            "tipo": "descoberto",
+            "titulo": "",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "http://www.netcina.com.br/?feed=atom",
+            "tipo": "descoberto",
+            "titulo": "",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Portal O Ângulo",
+      "url": "https://oangulo.com.br/",
+      "cidade": "Centro-Sul CE , Iguatu",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:50:20.791Z",
+        "tempoProcessamento": 0.174,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://oangulo.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:50:20.965Z",
+        "tempoProcessamento": 0.093,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://oangulo.com.br/"
+      }
+    },
+    {
+      "nome": "Portal O Xereta",
+      "url": "http://www.oxereta.com/",
+      "cidade": "Paracuru",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:50:22.058Z",
+        "tempoProcessamento": 1.49,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.oxereta.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:50:23.548Z",
+        "tempoProcessamento": 0.764,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.oxereta.com/"
+      }
+    },
+    {
+      "nome": "Portal Sertões de Cratéus",
+      "url": "http://www.sertoesdecrateus.com.br/",
+      "cidade": "Cratéus",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:50:25.315Z",
+        "tempoProcessamento": 3.099,
+        "feeds": [
+          {
+            "url": "https://www.portalsertoes.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Portal Sertões",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Sobral Portal de Notícias",
+      "url": "http://www.sobralportaldenoticias.com.br/",
+      "cidade": "Sobral",
+      "tipo": "Portais",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:50:29.415Z",
+        "tempoProcessamento": 4.342,
+        "feeds": [
+          {
+            "url": "http://www.sobralportaldenoticias.com.br/rss.xml",
+            "tipo": "descoberto",
+            "titulo": "Sobral Portal de Notícias | SPN",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "A Notícia do Ceará",
+      "url": "https://anoticiadoceara.com.br/",
+      "cidade": "Nova Russas",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:50:34.758Z",
+        "tempoProcessamento": 12.731,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:50:47.489Z",
+        "tempoProcessamento": 0.918,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "A Voz de Santa Quitéria",
+      "url": "http://www.avozdesantaquiteria.com.br/",
+      "cidade": "Santa Quitéria",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:50:49.408Z",
+        "tempoProcessamento": 1.991,
+        "feeds": [
+          {
+            "url": "http://www.avozdesantaquiteria.com.br/rss.xml",
+            "tipo": "descoberto",
+            "titulo": "A Voz de Santa Quitéria",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "A Voz do Bem",
+      "url": "https://www.avozdobem.com/",
+      "cidade": "Itapiúna",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:50:52.401Z",
+        "tempoProcessamento": 2.3,
+        "feeds": [
+          {
+            "url": "https://www.avozdobem.com/feed/",
+            "tipo": "descoberto",
+            "titulo": "",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://www.avozdobem.com/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Aconteceu Ipu",
+      "url": "https://www.aconteceuipu.net/",
+      "cidade": "Ipu",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:50:55.702Z",
+        "tempoProcessamento": 12.779,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:51:08.481Z",
+        "tempoProcessamento": 0.439,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Acopiara News",
+      "url": "http://www.acopiaranews.com/",
+      "cidade": "Acopiara",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:51:09.921Z",
+        "tempoProcessamento": 0.27,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.acopiaranews.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:51:10.191Z",
+        "tempoProcessamento": 0.107,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.acopiaranews.com/"
+      }
+    },
+    {
+      "nome": "Anuário do Ceará",
+      "url": "https://www.anuariodoceara.com.br/",
+      "cidade": null,
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:51:11.299Z",
+        "tempoProcessamento": 3.48,
+        "feeds": [
+          {
+            "url": "https://www.anuariodoceara.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Anuário do Ceará",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          },
+          {
+            "url": "https://www.anuariodoceara.com.br/rss/",
+            "tipo": "descoberto",
+            "titulo": "Anuário do Ceará",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          },
+          {
+            "url": "https://www.anuariodoceara.com.br/?feed=rss",
+            "tipo": "descoberto",
+            "titulo": "Anuário do Ceará",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          },
+          {
+            "url": "https://www.anuariodoceara.com.br/?feed=rss2",
+            "tipo": "descoberto",
+            "titulo": "Anuário do Ceará",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          },
+          {
+            "url": "https://www.anuariodoceara.com.br/?feed=atom",
+            "tipo": "descoberto",
+            "titulo": "Anuário do Ceará",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Aqui Conectados",
+      "url": "http://aquiconectados.com.br/",
+      "cidade": "Aurora",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:51:15.780Z",
+        "tempoProcessamento": 0.141,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://aquiconectados.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:51:15.921Z",
+        "tempoProcessamento": 0.106,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://aquiconectados.com.br/"
+      }
+    },
+    {
+      "nome": "Arabê Notícias",
+      "url": "http://arabenoticias.com.br/",
+      "cidade": "Sâo Benedito",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:51:17.028Z",
+        "tempoProcessamento": 0.329,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://arabenoticias.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:51:17.357Z",
+        "tempoProcessamento": 0.096,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://arabenoticias.com.br/"
+      }
+    },
+    {
+      "nome": "Aracati em Foco",
+      "url": "http://www.aracatiemfoco.com.br/",
+      "cidade": "Aracati",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:51:18.466Z",
+        "tempoProcessamento": 0.122,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.aracatiemfoco.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:51:18.588Z",
+        "tempoProcessamento": 0.186,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.aracatiemfoco.com.br/"
+      }
+    },
+    {
+      "nome": "Aracati Notícias",
+      "url": "http://aracatinoticias.com.br/",
+      "cidade": "Aracati",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:51:19.776Z",
+        "tempoProcessamento": 2.356,
+        "feeds": [
+          {
+            "url": "https://aracatinoticias.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Aracati Notícias",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://aracatinoticias.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Arretado",
+      "url": "http://www.arretado.com/",
+      "cidade": "Sobral",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:51:23.134Z",
+        "tempoProcessamento": 5.319,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:51:28.453Z",
+        "tempoProcessamento": 0.871,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "Aurora Notícias",
+      "url": "http://auroranoticias.com.br/",
+      "cidade": "Aurora",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:51:30.324Z",
+        "tempoProcessamento": 3.309,
+        "feeds": [
+          {
+            "url": "https://www.auroranoticias.com.br/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Portal Aurora Notícias",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Bom de Ver",
+      "url": "https://www.bomdever.com/",
+      "cidade": "Pacajus",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:51:34.634Z",
+        "tempoProcessamento": 6.379,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:51:41.013Z",
+        "tempoProcessamento": 0.15,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "Camocim Mídia",
+      "url": "http://www.camocimmidia.com/",
+      "cidade": "Camocim",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:51:42.164Z",
+        "tempoProcessamento": 1.783,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:51:43.947Z",
+        "tempoProcessamento": 0.246,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Cariri Ceará",
+      "url": "http://www.caririceara.com/",
+      "cidade": "Região do Cariri CE",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:51:45.193Z",
+        "tempoProcessamento": 4.526,
+        "feeds": [
+          {
+            "url": "https://caririceara.com/feed/",
+            "tipo": "descoberto",
+            "titulo": "Agência Caririceara",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://caririceara.com/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://caririceara.com/sample-page/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Ceará Agora",
+      "url": "https://cearaagora.com.br/",
+      "cidade": "RMF / Grande Fortaleza",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:51:50.720Z",
+        "tempoProcessamento": 1.414,
+        "feeds": [
+          {
+            "url": "https://cearaagora.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Ceará Agora • As Notícias Mais Importantes de Fortaleza, Ceará, Brasil",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Ceará É Notícia",
+      "url": "https://www.cearaenoticia.com.br/",
+      "cidade": null,
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:51:53.135Z",
+        "tempoProcessamento": 4.132,
+        "feeds": [
+          {
+            "url": "https://www.cearaenoticia.com.br/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Ceará é Notícia",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Centro de Fortaleza",
+      "url": "http://www.centrodefortaleza.com.br/",
+      "cidade": "Fortaleza ( Centro )",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:51:58.267Z",
+        "tempoProcessamento": 2.943,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:52:01.210Z",
+        "tempoProcessamento": 0.076,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "CN Cariri",
+      "url": "http://cncariri.com.br/",
+      "cidade": "Barbalha",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:52:02.287Z",
+        "tempoProcessamento": 0.117,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://cncariri.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:52:02.404Z",
+        "tempoProcessamento": 0.094,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://cncariri.com.br/"
+      }
+    },
+    {
+      "nome": "Conheça o Ceará",
+      "url": "https://conhecaoceara.com/",
+      "cidade": "Ceará",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:52:03.500Z",
+        "tempoProcessamento": 4.32,
+        "feeds": [
+          {
+            "url": "https://conhecaoceara.com/feed/",
+            "tipo": "descoberto",
+            "titulo": "ConhecaoCeara.com",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://conhecaoceara.com/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Cratéus Notícias",
+      "url": "http://www.crateusnoticias.com.br/",
+      "cidade": "Cratéus",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:52:08.822Z",
+        "tempoProcessamento": 1.169,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.crateusnoticias.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:52:09.991Z",
+        "tempoProcessamento": 0.106,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.crateusnoticias.com.br/"
+      }
+    },
+    {
+      "nome": "Edições",
+      "url": "http://www.oestadoce.com.br/digital",
+      "cidade": "Fortaleza",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:52:11.098Z",
+        "tempoProcessamento": 3.428,
+        "feeds": [
+          {
+            "url": "https://oestadoce.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "O Estado CE",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://oestadoce.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          },
+          {
+            "url": "https://oestadoce.com.br/category/edicao-do-dia/feed/",
+            "tipo": "descoberto",
+            "titulo": "Arquivo de Edição do Dia - O Estado CE",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Edições",
+      "url": "http://anoticiadoceara.com.br/edicoes-impressas/",
+      "cidade": "Nova Russas",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:52:15.526Z",
+        "tempoProcessamento": 5.597,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:52:21.123Z",
+        "tempoProcessamento": 0.595,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "Encontra CE",
+      "url": "https://www.encontrace.com.br/",
+      "cidade": "Ceará",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:52:22.718Z",
+        "tempoProcessamento": 11.589,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:52:34.307Z",
+        "tempoProcessamento": 2.308,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "Encontra Ceará",
+      "url": "https://www.encontraceara.com.br/",
+      "cidade": "Ceará",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:52:37.616Z",
+        "tempoProcessamento": 7.331,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:52:44.947Z",
+        "tempoProcessamento": 0.165,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Festa Hits",
+      "url": "http://www.festahits.com.br/",
+      "cidade": "Sobral",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:52:46.114Z",
+        "tempoProcessamento": 3.735,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:52:49.849Z",
+        "tempoProcessamento": 0.546,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Forquilha Online",
+      "url": "http://www.forquilhaonline.com.br/",
+      "cidade": "Forquilha",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:52:51.397Z",
+        "tempoProcessamento": 0.137,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.forquilhaonline.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:52:51.534Z",
+        "tempoProcessamento": 0.086,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.forquilhaonline.com.br/"
+      }
+    },
+    {
+      "nome": "Fortal",
+      "url": "https://fortal.com.br/",
+      "cidade": "Fortaleza",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:52:52.622Z",
+        "tempoProcessamento": 5.105,
+        "feeds": [
+          {
+            "url": "https://fortal.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Fortal",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://fortal.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Frisson Online",
+      "url": "https://frissononline.com.br/",
+      "cidade": "Fortaleza",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:52:58.729Z",
+        "tempoProcessamento": 19.905,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:53:18.634Z",
+        "tempoProcessamento": 1.009,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "Granja Hoje",
+      "url": "http://www.granjahoje.com/",
+      "cidade": "Granja",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:53:20.644Z",
+        "tempoProcessamento": 3.075,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.granjahoje.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:53:23.719Z",
+        "tempoProcessamento": 1.638,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "Granja Notícias",
+      "url": "http://www.granjanoticias.com/",
+      "cidade": "Granja",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:53:26.358Z",
+        "tempoProcessamento": 0.134,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.granjanoticias.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:53:26.492Z",
+        "tempoProcessamento": 0.219,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.granjanoticias.com/"
+      }
+    },
+    {
+      "nome": "Guia Caucaia",
+      "url": "https://www.guiacaucaia.com/",
+      "cidade": "Caucaia",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:53:27.712Z",
+        "tempoProcessamento": 9.42,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:53:37.132Z",
+        "tempoProcessamento": 0.592,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "Guia Juazeiro do Norte",
+      "url": "https://www.juazeirodonorte.net.br/",
+      "cidade": "Juazeiro do Norte",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:53:38.726Z",
+        "tempoProcessamento": 9.405,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:53:48.131Z",
+        "tempoProcessamento": 1.076,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "Ibiapaba Notícias",
+      "url": "http://www.ibiapabanoticias.com.br/",
+      "cidade": "Tianguá",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:53:50.207Z",
+        "tempoProcessamento": 1.055,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.ibiapabanoticias.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:53:51.263Z",
+        "tempoProcessamento": 0.102,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.ibiapabanoticias.com.br/"
+      }
+    },
+    {
+      "nome": "Iguatu Net",
+      "url": "http://www.iguatu.net/",
+      "cidade": "Iguatu",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:53:52.366Z",
+        "tempoProcessamento": 1.455,
+        "feeds": [
+          {
+            "url": "https://www.iguatu.net/rss.xml",
+            "tipo": "descoberto",
+            "titulo": "O site oficial de notÃ­cias de Iguatu e Centro Sul do CearÃ¡",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Iguatu News",
+      "url": "http://iguatunews.com.br/",
+      "cidade": "Iguatu",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:53:54.821Z",
+        "tempoProcessamento": 1.163,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://iguatunews.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:53:55.984Z",
+        "tempoProcessamento": 0.121,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://iguatunews.com.br/"
+      }
+    },
+    {
+      "nome": "Iguatu Notícias",
+      "url": "http://www.iguatunoticias.com/",
+      "cidade": "Iguatu",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:53:57.106Z",
+        "tempoProcessamento": 2.357,
+        "feeds": [
+          {
+            "url": "https://www.iguatunoticias.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Iguatu Noticias",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Impacto Granja",
+      "url": "http://www.impactogranja.com/",
+      "cidade": "Granja",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:54:00.465Z",
+        "tempoProcessamento": 2.002,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:54:02.467Z",
+        "tempoProcessamento": 0.101,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Imprensa Livre do Ceará",
+      "url": "https://imprensalivredoceara.com/",
+      "cidade": "Fortaleza",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:54:03.570Z",
+        "tempoProcessamento": 1.26,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://imprensalivredoceara.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:54:04.830Z",
+        "tempoProcessamento": 0.264,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://imprensalivredoceara.com/"
+      }
+    },
+    {
+      "nome": "Ipu News",
+      "url": "http://www.ipunews.com.br/",
+      "cidade": "Ipu",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:54:06.096Z",
+        "tempoProcessamento": 0.318,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.ipunews.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:54:06.414Z",
+        "tempoProcessamento": 0.119,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.ipunews.com.br/"
+      }
+    },
+    {
+      "nome": "Ipu Notícias",
+      "url": "http://www.ipunoticias.net/",
+      "cidade": "Ipu",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:54:07.534Z",
+        "tempoProcessamento": 0.93,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: Execution context was destroyed, most likely because of a navigation."
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:54:08.464Z",
+        "tempoProcessamento": 0.22,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Execution context was destroyed, most likely because of a navigation."
+      }
+    },
+    {
+      "nome": "Ipu Post",
+      "url": "http://www.ipupost.com.br/",
+      "cidade": "Ipu",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:54:09.684Z",
+        "tempoProcessamento": 1.334,
+        "feeds": [
+          {
+            "url": "https://ipupost.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Ipu Post",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Kariri Oeste",
+      "url": "https://karirioeste.com.br/",
+      "cidade": "Campos Sales",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:54:12.018Z",
+        "tempoProcessamento": 4.758,
+        "feeds": [
+          {
+            "url": "https://karirioeste.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Kariri Oeste",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://karirioeste.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Lia Pinheiro",
+      "url": "http://www.liapinheiro.com/",
+      "cidade": "Fortaleza / CE",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:54:17.777Z",
+        "tempoProcessamento": 0.238,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.liapinheiro.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:54:18.015Z",
+        "tempoProcessamento": 0.099,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.liapinheiro.com/"
+      }
+    },
+    {
+      "nome": "Limoeiro Plantão Policial",
+      "url": "http://www.limoeiroplantaopolicial.com/",
+      "cidade": "Limoeiro do Norte",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:54:19.115Z",
+        "tempoProcessamento": 0.235,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.limoeiroplantaopolicial.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:54:19.350Z",
+        "tempoProcessamento": 0.227,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.limoeiroplantaopolicial.com/"
+      }
+    },
+    {
+      "nome": "Mada News",
+      "url": "http://www.madanews.com.br/",
+      "cidade": "Madalena",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:54:20.578Z",
+        "tempoProcessamento": 1.098,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.madanews.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:54:21.676Z",
+        "tempoProcessamento": 0.687,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.madanews.com.br/"
+      }
+    },
+    {
+      "nome": "Massapê Ceará",
+      "url": "http://www.massapeceara.com/",
+      "cidade": "Massapê",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:54:23.364Z",
+        "tempoProcessamento": 0.254,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.massapeceara.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:54:23.618Z",
+        "tempoProcessamento": 0.234,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.massapeceara.com/"
+      }
+    },
+    {
+      "nome": "Monólitos Post",
+      "url": "http://www.monolitospost.com/",
+      "cidade": "Quixadá",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:54:24.852Z",
+        "tempoProcessamento": 9.516,
+        "feeds": [
+          {
+            "url": "http://www.monolitospost.com/feed/",
+            "tipo": "descoberto",
+            "titulo": "Monólitos Post",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "http://www.monolitospost.com/rss/",
+            "tipo": "descoberto",
+            "titulo": "Monólitos Post",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "http://www.monolitospost.com/?feed=rss",
+            "tipo": "descoberto",
+            "titulo": "Monólitos Post",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "http://www.monolitospost.com/?feed=rss2",
+            "tipo": "descoberto",
+            "titulo": "Monólitos Post",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "http://www.monolitospost.com/?feed=atom",
+            "tipo": "descoberto",
+            "titulo": "Monólitos Post",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "MT News",
+      "url": "http://www.mtnews.info/",
+      "cidade": "Monsenhor Tabosa",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:54:35.371Z",
+        "tempoProcessamento": 1.19,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.mtnews.info/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:54:36.561Z",
+        "tempoProcessamento": 0.106,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.mtnews.info/"
+      }
+    },
+    {
+      "nome": "Notícias de Pentecoste",
+      "url": "http://www.noticiasdepentecoste.com/",
+      "cidade": "Pentecoste",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:54:37.668Z",
+        "tempoProcessamento": 4.21,
+        "feeds": [
+          {
+            "url": "https://noticiasdepentecoste.com/feed/",
+            "tipo": "descoberto",
+            "titulo": "NOTÍCIAS DE PENTECOSTE",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://noticiasdepentecoste.com/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "O Acaraú!",
+      "url": "http://www.oacarau.com/",
+      "cidade": "Acaraú",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:54:42.878Z",
+        "tempoProcessamento": 13.028,
+        "feeds": [
+          {
+            "url": "https://luckyjet-games.com/feed/",
+            "tipo": "descoberto",
+            "titulo": "Lucky Jet Games",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://luckyjet-games.com/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://luckyjet-games.com/home/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "O Estado CE",
+      "url": "https://oestadoce.com.br/",
+      "cidade": "Fortaleza",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:54:56.908Z",
+        "tempoProcessamento": 2.437,
+        "feeds": [
+          {
+            "url": "https://oestadoce.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "O Estado CE",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://oestadoce.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "O Kariri",
+      "url": "https://www.okariri.com/",
+      "cidade": "Milagres / Vale do Cariri",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:55:00.346Z",
+        "tempoProcessamento": 4.034,
+        "feeds": [
+          {
+            "url": "https://www.okariri.com/feed/",
+            "tipo": "descoberto",
+            "titulo": "OKariri",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://www.okariri.com/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "O Lagoa",
+      "url": "https://olagoa.com.br/",
+      "cidade": "Fortaleza",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:55:05.381Z",
+        "tempoProcessamento": 1.177,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://olagoa.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:55:06.558Z",
+        "tempoProcessamento": 0.105,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://olagoa.com.br/"
+      }
+    },
+    {
+      "nome": "O Povo",
+      "url": "http://www.opovo.com.br/",
+      "cidade": "Fortaleza / CE",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:55:07.663Z",
+        "tempoProcessamento": 4.714,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:55:12.377Z",
+        "tempoProcessamento": 0.199,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "O Sertão É Notícia",
+      "url": "http://www.osertaoenoticia.com.br/",
+      "cidade": "Quixeramobim",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:55:13.577Z",
+        "tempoProcessamento": 3.089,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.osertaoenoticia.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:55:16.666Z",
+        "tempoProcessamento": 3.09,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.osertaoenoticia.com.br/"
+      }
+    },
+    {
+      "nome": "O Sobralense",
+      "url": "http://www.osobralense.com.br/",
+      "cidade": "Sobral",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:55:20.758Z",
+        "tempoProcessamento": 3.091,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.osobralense.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:55:23.849Z",
+        "tempoProcessamento": 4.805,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "Opinião CE",
+      "url": "https://www.opiniaoce.com.br/",
+      "cidade": null,
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:55:29.655Z",
+        "tempoProcessamento": 7.547,
+        "feeds": [
+          {
+            "url": "https://www.opiniaoce.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Opinião CE",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://www.opiniaoce.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          },
+          {
+            "url": "https://www.opiniaoce.com.br/home-v2/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Pacatuba em Foco",
+      "url": "http://www.pacatubaemfoco.com.br/",
+      "cidade": "Pacatuba",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:55:38.204Z",
+        "tempoProcessamento": 0.213,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.pacatubaemfoco.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:55:38.417Z",
+        "tempoProcessamento": 0.101,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.pacatubaemfoco.com.br/"
+      }
+    },
+    {
+      "nome": "Programa Livre Ceará",
+      "url": "http://www.programalivreceara.com.br/",
+      "cidade": "Programa Livre CearáCanal - Pacajus / Vale do Caju / RMF",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:55:39.520Z",
+        "tempoProcessamento": 1.171,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.programalivreceara.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:55:40.691Z",
+        "tempoProcessamento": 0.132,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.programalivreceara.com.br/"
+      }
+    },
+    {
+      "nome": "Radialista Denes Lima",
+      "url": "https://radialistadeneslima.com.br/",
+      "cidade": "Nova Russas",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:55:41.823Z",
+        "tempoProcessamento": 0.333,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://radialistadeneslima.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:55:42.156Z",
+        "tempoProcessamento": 0.097,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://radialistadeneslima.com.br/"
+      }
+    },
+    {
+      "nome": "Rede União",
+      "url": "http://www.redeuniao.com.br/",
+      "cidade": null,
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:55:43.254Z",
+        "tempoProcessamento": 0.169,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.redeuniao.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:55:43.424Z",
+        "tempoProcessamento": 0.105,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.redeuniao.com.br/"
+      }
+    },
+    {
+      "nome": "Revista Central",
+      "url": "http://www.revistacentral.com.br/",
+      "cidade": "Quixadá",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:55:44.530Z",
+        "tempoProcessamento": 4.857,
+        "feeds": [
+          {
+            "url": "https://revistacentral.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Revista Central",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://revistacentral.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Revista Online de Quixadá",
+      "url": "http://revistaonlinedequixada.com/",
+      "cidade": "Quixadá",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:55:50.388Z",
+        "tempoProcessamento": 0.22,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://revistaonlinedequixada.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:55:50.608Z",
+        "tempoProcessamento": 0.196,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://revistaonlinedequixada.com/"
+      }
+    },
+    {
+      "nome": "Russas News",
+      "url": "http://russasnews.com.br/",
+      "cidade": "Russas",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:55:51.806Z",
+        "tempoProcessamento": 5.239,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:55:57.045Z",
+        "tempoProcessamento": 0.345,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Sert News",
+      "url": "http://sertnews.com.br/",
+      "cidade": "Boa Viagem",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:55:58.391Z",
+        "tempoProcessamento": 8.007,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:56:06.399Z",
+        "tempoProcessamento": 0.294,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "SGA Notícias",
+      "url": "http://www.sganoticias.com.br/",
+      "cidade": "S.G. do Amarante",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:56:07.694Z",
+        "tempoProcessamento": 2.118,
+        "feeds": [
+          {
+            "url": "https://www.sganoticias.com.br/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "SGA Notícias",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Sistema Maior",
+      "url": "http://www.sistemamaior.com.br/",
+      "cidade": "Sistema Maior - Quixeramobim",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:56:10.812Z",
+        "tempoProcessamento": 3.088,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.sistemamaior.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:56:13.900Z",
+        "tempoProcessamento": 3.145,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Site Miséria",
+      "url": "http://www.miseria.com.br/",
+      "cidade": "Juazeiro do Norte",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:56:18.048Z",
+        "tempoProcessamento": 7.298,
+        "feeds": [
+          {
+            "url": "http://www.miseria.com.br/?feed=atom",
+            "tipo": "descoberto",
+            "titulo": "Portal Miséria",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Sobral 24 Horas",
+      "url": "http://www.sobral24horas.com/",
+      "cidade": "Sobral",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:56:26.346Z",
+        "tempoProcessamento": 4.551,
+        "feeds": [
+          {
+            "url": "https://www.sobral24horas.com/feeds/posts/default",
+            "tipo": "descoberto",
+            "titulo": "SOBRAL 24 HORAS",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          },
+          {
+            "url": "https://www.sobral24horas.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "SOBRAL 24 HORAS",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          },
+          {
+            "url": "https://www.blogger.com/feeds/1495706855201301653/posts/default",
+            "tipo": "descoberto",
+            "titulo": "SOBRAL 24 HORAS",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Taperuaba Notícias",
+      "url": "http://www.taperuabanoticias.com.br/",
+      "cidade": "Distrito de Taperuaba / Sobral",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:56:31.897Z",
+        "tempoProcessamento": 3.588,
+        "feeds": [
+          {
+            "url": "https://www.taperuabanoticias.com.br/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "TAPERUABA NOTÍCIAS",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Umirim Notícias",
+      "url": "https://www.umirimnoticias.com.br/",
+      "cidade": "Umirim",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:56:36.486Z",
+        "tempoProcessamento": 3.673,
+        "feeds": [
+          {
+            "url": "https://www.umirimnoticias.com.br/rss.xml",
+            "tipo": "descoberto",
+            "titulo": "Umirim Notícias | Seu Jornal Eletrônico",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Varjota em Alerta",
+      "url": "http://www.varjotaemalerta.com/",
+      "cidade": "Varjota",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:56:41.161Z",
+        "tempoProcessamento": 0.119,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.varjotaemalerta.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:56:41.280Z",
+        "tempoProcessamento": 0.214,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.varjotaemalerta.com/"
+      }
+    },
+    {
+      "nome": "Varjota em Destaque",
+      "url": "http://www.varjotaemdestaque.com/",
+      "cidade": "Varjota",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:56:42.494Z",
+        "tempoProcessamento": 3.175,
+        "feeds": [
+          {
+            "url": "https://www.varjotaemdestaque.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Rádio Varjota - Programação Própria, 24 Horas no Ar",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Varjota Notícias",
+      "url": "http://www.varjotanoticias.com/",
+      "cidade": "Varjota",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:56:46.670Z",
+        "tempoProcessamento": 6.626,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: Execution context was destroyed, most likely because of a navigation."
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:56:53.296Z",
+        "tempoProcessamento": 1.732,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Veja Juazeiro",
+      "url": "http://www.vejajuazeiro.com.br/",
+      "cidade": "Juazeiro do Norte",
+      "tipo": "Sites de Notícias",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:56:56.028Z",
+        "tempoProcessamento": 0.155,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.vejajuazeiro.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:56:56.183Z",
+        "tempoProcessamento": 0.158,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.vejajuazeiro.com.br/"
+      }
+    },
+    {
+      "nome": "ALECE TV",
+      "url": "https://www.al.ce.gov.br/paginas/assista-ao-vivo",
+      "cidade": null,
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:56:57.342Z",
+        "tempoProcessamento": 1.734,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:56:59.076Z",
+        "tempoProcessamento": 0.229,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Blog TV Uruburetama",
+      "url": "http://tvuruburetama.blogspot.com.br/",
+      "cidade": "Uruburetama",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:57:00.306Z",
+        "tempoProcessamento": 4.389,
+        "feeds": [
+          {
+            "url": "https://tvuruburetama.blogspot.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Tv Uruburetama",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Canal FDR",
+      "url": "https://fdr.org.br/canalfdr/tvaovivo/",
+      "cidade": "Canal FDR [ TV Educativa ]Canal",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:57:05.697Z",
+        "tempoProcessamento": 3.04,
+        "feeds": [
+          {
+            "url": "https://fdr.org.br/canalfdr/tvaovivo/feed/",
+            "tipo": "descoberto",
+            "titulo": "Arquivo AO VIVO - CANAL FDR",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://fdr.org.br/canalfdr/tvaovivo/rss/",
+            "tipo": "descoberto",
+            "titulo": "Arquivo AO VIVO - CANAL FDR",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://fdr.org.br/canalfdr/tvaovivo/?feed=rss",
+            "tipo": "descoberto",
+            "titulo": "Arquivo AO VIVO - CANAL FDR",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://fdr.org.br/canalfdr/tvaovivo/?feed=rss2",
+            "tipo": "descoberto",
+            "titulo": "Arquivo AO VIVO - CANAL FDR",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://fdr.org.br/canalfdr/tvaovivo/?feed=atom",
+            "tipo": "descoberto",
+            "titulo": "Arquivo AO VIVO - CANAL FDR",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Diário Manhã",
+      "url": "http://tvdiario.verdesmares.com.br/programas/diario-da-manha",
+      "cidade": "Diário Manhã , J Meio Dia , Diário na TV",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:57:09.739Z",
+        "tempoProcessamento": 1.767,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:57:11.506Z",
+        "tempoProcessamento": 0.107,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Diário na TV",
+      "url": "http://tvdiario.verdesmares.com.br/programas/diario-na-tv",
+      "cidade": "Diário Manhã , J Meio Dia , Diário na TV",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:57:12.614Z",
+        "tempoProcessamento": 5.854,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:57:18.468Z",
+        "tempoProcessamento": 0.244,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "J Meio Dia",
+      "url": "http://tvdiario.verdesmares.com.br/programas/jornal-do-meio-dia",
+      "cidade": "Diário Manhã , J Meio Dia , Diário na TV",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:57:19.713Z",
+        "tempoProcessamento": 1.757,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:57:21.470Z",
+        "tempoProcessamento": 0.106,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Portal TV Uruburetama",
+      "url": "http://tvuruburetama.com.br/",
+      "cidade": "Uruburetama",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:57:22.576Z",
+        "tempoProcessamento": 0.28,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://tvuruburetama.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:57:22.856Z",
+        "tempoProcessamento": 0.115,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://tvuruburetama.com.br/"
+      }
+    },
+    {
+      "nome": "TV Ceará",
+      "url": "http://www.tvceara.ce.gov.br/",
+      "cidade": "TV Ceará | TV Pública",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:57:23.972Z",
+        "tempoProcessamento": 1.859,
+        "feeds": [
+          {
+            "url": "https://www.tvceara.ce.gov.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "TV Ceará",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://www.tvceara.ce.gov.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "TV Cidade Fortaleza",
+      "url": "https://gcmais.com.br/tv-cidade/",
+      "cidade": null,
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:57:26.832Z",
+        "tempoProcessamento": 11.108,
+        "feeds": [
+          {
+            "url": "https://gcmais.com.br/tv-cidade/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          },
+          {
+            "url": "https://gcmais.com.br/tv-cidade/rss/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          },
+          {
+            "url": "https://gcmais.com.br/tv-cidade/?feed=rss",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          },
+          {
+            "url": "https://gcmais.com.br/tv-cidade/?feed=rss2",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          },
+          {
+            "url": "https://gcmais.com.br/tv-cidade/?feed=atom",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "TV Diario",
+      "url": "http://www.tvdiario.tv.br/",
+      "cidade": "TV Diario - Ao Vivo Canal",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:57:38.941Z",
+        "tempoProcessamento": 0.272,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.tvdiario.tv.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:57:39.213Z",
+        "tempoProcessamento": 0.113,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.tvdiario.tv.br/"
+      }
+    },
+    {
+      "nome": "TV Jaguar",
+      "url": "http://www.tvjaguar.com.br/",
+      "cidade": "TV JaguarCanal - Limoeiro do Norte",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:57:40.328Z",
+        "tempoProcessamento": 0.142,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.tvjaguar.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:57:40.470Z",
+        "tempoProcessamento": 0.118,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.tvjaguar.com.br/"
+      }
+    },
+    {
+      "nome": "TV Jangadeiro",
+      "url": "https://jangadeiro.com.br/",
+      "cidade": null,
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:57:41.590Z",
+        "tempoProcessamento": 3.476,
+        "feeds": [
+          {
+            "url": "https://jangadeiro.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "TV Jangadeiro",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://jangadeiro.com.br/rss/",
+            "tipo": "descoberto",
+            "titulo": "TV Jangadeiro",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://jangadeiro.com.br/?feed=rss",
+            "tipo": "descoberto",
+            "titulo": "TV Jangadeiro",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://jangadeiro.com.br/?feed=rss2",
+            "tipo": "descoberto",
+            "titulo": "TV Jangadeiro",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://jangadeiro.com.br/?feed=atom",
+            "tipo": "descoberto",
+            "titulo": "TV Jangadeiro",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "TV Metrópole",
+      "url": "http://www.tvmetropole26.com.br/",
+      "cidade": "TV MetrópoleCanal - Caucaia",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:57:46.069Z",
+        "tempoProcessamento": 1.127,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.tvmetropole26.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:57:47.196Z",
+        "tempoProcessamento": 0.108,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.tvmetropole26.com.br/"
+      }
+    },
+    {
+      "nome": "TV Somzoom",
+      "url": "http://www.tvsomzoom.com.br/",
+      "cidade": "TV Somzoom - Fortaleza",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:57:48.306Z",
+        "tempoProcessamento": 0.11,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.tvsomzoom.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:57:48.416Z",
+        "tempoProcessamento": 0.096,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.tvsomzoom.com.br/"
+      }
+    },
+    {
+      "nome": "TV Verdes Mares",
+      "url": "https://redeglobo.globo.com/tvverdesmares/",
+      "cidade": "TV Verdes Mares , G1 CE , GE CE",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:57:49.512Z",
+        "tempoProcessamento": 11.646,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:58:01.158Z",
+        "tempoProcessamento": 0.675,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "WebTV Norte CE",
+      "url": "https://webtvnortece.com.br/",
+      "cidade": "WebTV Norte CE - Uruburetama",
+      "tipo": "Televisões",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:58:02.835Z",
+        "tempoProcessamento": 1.168,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://webtvnortece.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:58:04.003Z",
+        "tempoProcessamento": 0.124,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://webtvnortece.com.br/"
+      }
+    },
+    {
+      "nome": "Blog Andarilho da Notícia",
+      "url": "http://www.andarilhodanoticia.com/",
+      "cidade": "Meruoca",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:58:05.128Z",
+        "tempoProcessamento": 3.076,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.andarilhodanoticia.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:58:08.204Z",
+        "tempoProcessamento": 7.445,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Blog Baladeira de Paramoti",
+      "url": "http://baladeiradeparamoti.zip.net/",
+      "cidade": "Paramoti",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:58:16.649Z",
+        "tempoProcessamento": 0.153,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://baladeiradeparamoti.zip.net/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:58:16.802Z",
+        "tempoProcessamento": 0.106,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://baladeiradeparamoti.zip.net/"
+      }
+    },
+    {
+      "nome": "Blog Camocim Imparcial",
+      "url": "http://camocimimparcial.blogspot.com.br/",
+      "cidade": "Camocim",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:58:17.908Z",
+        "tempoProcessamento": 7.307,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:58:25.215Z",
+        "tempoProcessamento": 0.601,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Blog Cariré em Revista",
+      "url": "http://carireemrevista.blogspot.com.br/",
+      "cidade": "Cariré",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:58:26.817Z",
+        "tempoProcessamento": 3.11,
+        "feeds": [
+          {
+            "url": "https://carireemrevista.blogspot.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "CARIRÉ EM REVISTA",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog Ceará é Notícia",
+      "url": "http://www.cearaenoticia.com.br/",
+      "cidade": "Fortaleza / CE",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T15:58:30.928Z",
+        "tempoProcessamento": 4.305,
+        "feeds": [
+          {
+            "url": "http://www.cearaenoticia.com.br/rss.xml",
+            "tipo": "descoberto",
+            "titulo": "Ceará é Notícia",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog de Altaneira",
+      "url": "http://www.blogdealtaneira.com.br/",
+      "cidade": "Altaneira",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:58:36.235Z",
+        "tempoProcessamento": 8.865,
+        "feeds": [
+          {
+            "url": "https://www.blogdealtaneira.com.br/feeds/posts/default",
+            "tipo": "descoberto",
+            "titulo": "Blog de Altaneira",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          },
+          {
+            "url": "https://www.blogdealtaneira.com.br/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Blog de Altaneira",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          },
+          {
+            "url": "https://www.blogger.com/feeds/3582785313540164401/posts/default",
+            "tipo": "descoberto",
+            "titulo": "Blog de Altaneira",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog de Solonópole",
+      "url": "http://www.solonopole.blogspot.com.br/",
+      "cidade": "Solonópole",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:58:46.103Z",
+        "tempoProcessamento": 0.255,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.solonopole.blogspot.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:58:46.358Z",
+        "tempoProcessamento": 0.175,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.solonopole.blogspot.com.br/"
+      }
+    },
+    {
+      "nome": "Blog do Aldênis Fernandes",
+      "url": "https://aldenisfernandes.blogspot.com/",
+      "cidade": "Massapê",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:58:47.533Z",
+        "tempoProcessamento": 5.095,
+        "feeds": [
+          {
+            "url": "https://aldenisfernandes.blogspot.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Blog Aldênis Fernandes | Massapê no Caminho da Notícia",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog do Eliomar",
+      "url": "http://blogdoeliomar.com.br/",
+      "cidade": "Ceará",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:58:53.629Z",
+        "tempoProcessamento": 3.929,
+        "feeds": [
+          {
+            "url": "https://blogdoeliomar.com/feed/",
+            "tipo": "descoberto",
+            "titulo": "Blog do Eliomar",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://blogdoeliomar.com/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog do Estênio Negreiros",
+      "url": "https://estenionegreiros.blogspot.com/",
+      "cidade": "Fortaleza / CE",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:58:58.558Z",
+        "tempoProcessamento": 4.569,
+        "feeds": [
+          {
+            "url": "https://estenionegreiros.blogspot.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Blog do Estênio Negreiros",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog do Fabrício Moreira",
+      "url": "http://www.fabriciomoreira.com/",
+      "cidade": "Icó",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:59:04.129Z",
+        "tempoProcessamento": 6.07,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:59:10.199Z",
+        "tempoProcessamento": 0.254,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Blog do Jonas Mello Radialista",
+      "url": "http://jonasmelloradialista.blogspot.com.br/",
+      "cidade": "Fortaleza",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:59:11.454Z",
+        "tempoProcessamento": 5.953,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:59:17.407Z",
+        "tempoProcessamento": 0.37,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Blog do Kempes",
+      "url": "https://blogdokempes.com.br/",
+      "cidade": null,
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:59:18.778Z",
+        "tempoProcessamento": 1.341,
+        "feeds": [
+          {
+            "url": "https://blogdokempes.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Blog do Kempes",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://blogdokempes.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog do Kleber Teixeira",
+      "url": "http://www.blogdokleberteixeira.com/",
+      "cidade": "Ipu",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:59:21.121Z",
+        "tempoProcessamento": 0.234,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.blogdokleberteixeira.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:59:21.355Z",
+        "tempoProcessamento": 0.198,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.blogdokleberteixeira.com/"
+      }
+    },
+    {
+      "nome": "Blog do Lauriberto",
+      "url": "https://www.blogdolauriberto.com/",
+      "cidade": "Fortaleza / CE",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:59:22.554Z",
+        "tempoProcessamento": 0.289,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://www.blogdolauriberto.com/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:59:22.843Z",
+        "tempoProcessamento": 0.219,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at https://www.blogdolauriberto.com/"
+      }
+    },
+    {
+      "nome": "Blog do Lindomar Rodrigues",
+      "url": "http://www.lindomarrodrigues.com/",
+      "cidade": "Acopiara",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:59:24.063Z",
+        "tempoProcessamento": 4.426,
+        "feeds": [
+          {
+            "url": "https://www.lindomarrodrigues.com/feeds/posts/default",
+            "tipo": "descoberto",
+            "titulo": "Lindomar Rodrigues",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          },
+          {
+            "url": "https://www.lindomarrodrigues.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Lindomar Rodrigues",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          },
+          {
+            "url": "https://www.blogger.com/feeds/6529647191670340549/posts/default",
+            "tipo": "descoberto",
+            "titulo": "Lindomar Rodrigues",
+            "categoria": null,
+            "validado": true,
+            "formato": "Atom",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog do Nilão",
+      "url": "http://www.blogdonilao.blogspot.com.br/",
+      "cidade": "Limoeiro do Norte",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:59:29.492Z",
+        "tempoProcessamento": 0.291,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.blogdonilao.blogspot.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:59:29.783Z",
+        "tempoProcessamento": 0.171,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.blogdonilao.blogspot.com.br/"
+      }
+    },
+    {
+      "nome": "Blog do Repórter Leonardo Ferreira",
+      "url": "https://reporterleonardoferreira.blogspot.com.br/",
+      "cidade": "Forquilha",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T15:59:30.955Z",
+        "tempoProcessamento": 17.72,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:59:48.675Z",
+        "tempoProcessamento": 0.419,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "Blog do Roberto Moreira",
+      "url": "https://www.blogrobertomoreira.com/",
+      "cidade": "Ceará",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:59:50.093Z",
+        "tempoProcessamento": 3.027,
+        "feeds": [
+          {
+            "url": "https://www.blogrobertomoreira.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Roberto Moreira",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog do Walter Lima",
+      "url": "http://www.blogdowalterlima.com.br/",
+      "cidade": "Senador Pompeu",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:59:54.119Z",
+        "tempoProcessamento": 0.158,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.blogdowalterlima.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:59:54.277Z",
+        "tempoProcessamento": 0.094,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.blogdowalterlima.com.br/"
+      }
+    },
+    {
+      "nome": "Blog do Wilrismar Holanda",
+      "url": "http://www.blogdowilrismar.com/",
+      "cidade": "Tauá",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T15:59:55.373Z",
+        "tempoProcessamento": 1.603,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: Execution context was destroyed, most likely because of a navigation."
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T15:59:56.976Z",
+        "tempoProcessamento": 1.304,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Execution context was destroyed, most likely because of a navigation."
+      }
+    },
+    {
+      "nome": "Blog Flávio Pinto News",
+      "url": "http://flaviopintonews.blogspot.com.br/",
+      "cidade": "Juazeiro do Norte",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T15:59:59.281Z",
+        "tempoProcessamento": 3.793,
+        "feeds": [
+          {
+            "url": "https://www.flaviopintonews.com.br/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Flavio Pinto News",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog Frente & Verso",
+      "url": "http://jfluz.blogspot.com.br/",
+      "cidade": "Paracuru",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "exploracao-completa",
+        "timestamp": "2026-01-13T16:00:04.075Z",
+        "tempoProcessamento": 11.168,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 1,
+          "metodo": "html-tags + padroes + llm-analise"
+        },
+        "observacoes": "Nenhum feed encontrado após exploração completa"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T16:00:15.243Z",
+        "tempoProcessamento": 0.452,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": null
+      }
+    },
+    {
+      "nome": "Blog Gente de Mídia",
+      "url": "http://gentedemidia.blogspot.com.br/",
+      "cidade": "Fortaleza / CE",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T16:00:16.697Z",
+        "tempoProcessamento": 5.659,
+        "feeds": [
+          {
+            "url": "https://gentedemidia.blogspot.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "GENTE DE MÍDIA",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog Icó na Rede",
+      "url": "http://iconarede.blogspot.com.br/",
+      "cidade": "Icó",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T16:00:23.357Z",
+        "tempoProcessamento": 5.19,
+        "feeds": [
+          {
+            "url": "https://iconarede.blogspot.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Icó na rede",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog Iguatu Diário",
+      "url": "http://www.iguatudiario.blogspot.com.br/",
+      "cidade": "Iguatu",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T16:00:29.549Z",
+        "tempoProcessamento": 0.223,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.iguatudiario.blogspot.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T16:00:29.772Z",
+        "tempoProcessamento": 0.19,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.iguatudiario.blogspot.com.br/"
+      }
+    },
+    {
+      "nome": "Blog Jornal Central Quixadá",
+      "url": "http://www.jornalcentralquixada.com.br/",
+      "cidade": "Quixadá",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T16:00:30.964Z",
+        "tempoProcessamento": 0.161,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.jornalcentralquixada.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T16:00:31.125Z",
+        "tempoProcessamento": 0.111,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.jornalcentralquixada.com.br/"
+      }
+    },
+    {
+      "nome": "Blog Márcia Travessoni",
+      "url": "https://marciatravessoni.com.br/",
+      "cidade": "Fortaleza / CE",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T16:00:32.238Z",
+        "tempoProcessamento": 6.547,
+        "feeds": [
+          {
+            "url": "https://marciatravessoni.com.br/feed/",
+            "tipo": "descoberto",
+            "titulo": "Márcia Travessoni &#8211; Eventos, Lifestyle, Moda, Viagens e mais",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          },
+          {
+            "url": "https://marciatravessoni.com.br/comments/feed/",
+            "tipo": "descoberto",
+            "titulo": null,
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": false
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog Paulo Sérgio de Carvalho",
+      "url": "http://www.blogdopaulosergiodecarvalho.blogspot.com.br/",
+      "cidade": "Lavras da Mangabeira",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T16:00:39.786Z",
+        "tempoProcessamento": 0.255,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.blogdopaulosergiodecarvalho.blogspot.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T16:00:40.041Z",
+        "tempoProcessamento": 0.404,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.blogdopaulosergiodecarvalho.blogspot.com.br/"
+      }
+    },
+    {
+      "nome": "Blog Pinheirinho",
+      "url": "http://www.pinheirinho.net/",
+      "cidade": "Iguatu",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T16:00:41.445Z",
+        "tempoProcessamento": 0.391,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.pinheirinho.net/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T16:00:41.836Z",
+        "tempoProcessamento": 0.245,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.pinheirinho.net/"
+      }
+    },
+    {
+      "nome": "Blog Plantão Policial 190",
+      "url": "https://policialplantaopolicia-190.blogspot.com/",
+      "cidade": "Quixeré",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "html-tags",
+        "timestamp": "2026-01-13T16:00:43.081Z",
+        "tempoProcessamento": 4.453,
+        "feeds": [
+          {
+            "url": "https://policialplantaopolicia-190.blogspot.com/feeds/posts/default?alt=rss",
+            "tipo": "descoberto",
+            "titulo": "Ocorrências Policiais: tudo sobre polícia e 190 - No Plantão Policial",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "html-tags"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog Quixeramobim Agora",
+      "url": "http://quixeramobimagora.blogspot.com.br/",
+      "cidade": "Quixeramobim",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "padroes",
+        "timestamp": "2026-01-13T16:00:48.536Z",
+        "tempoProcessamento": 14.435,
+        "feeds": [
+          {
+            "url": "http://quixeramobimagora.blogspot.com.br/rss.xml",
+            "tipo": "descoberto",
+            "titulo": "Quixeramobim Agora",
+            "categoria": null,
+            "validado": true,
+            "formato": "RSS",
+            "temItens": true
+          }
+        ],
+        "exploracao": {
+          "paginasVisitadas": 1,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": "padroes-conhecidos"
+        },
+        "observacoes": null
+      },
+      "search": {
+        "processado": false,
+        "encontrado": false,
+        "observacoes": "Não processado - veículo possui RSS",
+        "timestamp": null
+      }
+    },
+    {
+      "nome": "Blog Repórter Francisco José",
+      "url": "http://www.reporterfranciscojose.com.br/",
+      "cidade": "Ipu",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T16:01:03.972Z",
+        "tempoProcessamento": 0.363,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.reporterfranciscojose.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T16:01:04.335Z",
+        "tempoProcessamento": 0.22,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.reporterfranciscojose.com.br/"
+      }
+    },
+    {
+      "nome": "Blog Sobral Agora",
+      "url": "http://www.sobralagora.com.br/",
+      "cidade": "Sobral",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T16:01:05.556Z",
+        "tempoProcessamento": 3.086,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.sobralagora.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": true,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T16:01:08.642Z",
+        "tempoProcessamento": 6.387,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: Cannot read properties of undefined (reading 'toLowerCase')"
+      }
+    },
+    {
+      "nome": "Blog Sobral de Prima",
+      "url": "http://www.sobraldeprima.blogspot.com.br/",
+      "cidade": "Sobral",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T16:01:16.030Z",
+        "tempoProcessamento": 0.259,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.sobraldeprima.blogspot.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T16:01:16.289Z",
+        "tempoProcessamento": 0.152,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_BLOCKED_BY_CLIENT at http://www.sobraldeprima.blogspot.com.br/"
+      }
+    },
+    {
+      "nome": "Blog Sobral Mais Notícias",
+      "url": "http://www.sobralmaisnoticias.com.br/",
+      "cidade": "Sobral",
+      "tipo": "Blogs",
+      "rss": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "",
+        "timestamp": "2026-01-13T16:01:17.442Z",
+        "tempoProcessamento": 1.161,
+        "feeds": [],
+        "exploracao": {
+          "paginasVisitadas": 0,
+          "nivelMaximo": 0,
+          "chamadasLLM": 0,
+          "metodo": ""
+        },
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.sobralmaisnoticias.com.br/"
+      },
+      "search": {
+        "processado": true,
+        "encontrado": false,
+        "metodo": "analise-html",
+        "timestamp": "2026-01-13T16:01:18.603Z",
+        "tempoProcessamento": 0.633,
+        "estrategia": null,
+        "detalhes": null,
+        "observacoes": "Erro: net::ERR_NAME_NOT_RESOLVED at http://www.sobralmaisnoticias.com.br/"
+      }
+    }
+  ]
+}
