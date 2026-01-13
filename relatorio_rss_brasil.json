@@ -1,0 +1,612 @@
+{
+  "titulo": "Levantamento de Feeds RSS de Jornais Brasileiros",
+  "data_pesquisa": "2026-01-13",
+  "resumo": {
+    "total_veiculos": 25,
+    "total_feeds_identificados": 120,
+    "principais_categorias": [
+      "Notícias Gerais",
+      "Política",
+      "Economia",
+      "Esportes",
+      "Cultura/Entretenimento",
+      "Internacional",
+      "Ciência e Saúde",
+      "Educação",
+      "Tecnologia",
+      "Meio Ambiente"
+    ]
+  },
+  "veiculos": [
+    {
+      "nome": "Folha de S.Paulo",
+      "tipo": "Jornal Nacional",
+      "website": "https://www.folha.uol.com.br",
+      "feeds": [
+        {
+          "categoria": "Em Cima da Hora (Principal)",
+          "url": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml"
+        },
+        {
+          "categoria": "Ilustrada (Cultura)",
+          "url": "https://feeds.folha.uol.com.br/ilustrada/rss091.xml"
+        },
+        {
+          "categoria": "Política",
+          "url": "https://feeds.folha.uol.com.br/poder/rss091.xml"
+        },
+        {
+          "categoria": "Mercado",
+          "url": "https://feeds.folha.uol.com.br/mercado/rss091.xml"
+        },
+        {
+          "categoria": "Mundo",
+          "url": "https://feeds.folha.uol.com.br/mundo/rss091.xml"
+        },
+        {
+          "categoria": "Esporte",
+          "url": "https://feeds.folha.uol.com.br/esporte/rss091.xml"
+        }
+      ],
+      "padrao_url": "https://feeds.folha.uol.com.br/[editoria]/rss091.xml"
+    },
+    {
+      "nome": "Estadão",
+      "tipo": "Jornal Nacional",
+      "website": "https://www.estadao.com.br",
+      "feeds": [
+        {
+          "categoria": "Política",
+          "url": "https://estadao.com.br/arc/outboundfeeds/rss/politica/"
+        },
+        {
+          "categoria": "Economia",
+          "url": "https://estadao.com.br/arc/outboundfeeds/rss/economia/"
+        },
+        {
+          "categoria": "Brasil",
+          "url": "https://estadao.com.br/arc/outboundfeeds/rss/brasil/"
+        },
+        {
+          "categoria": "Internacional",
+          "url": "https://estadao.com.br/arc/outboundfeeds/rss/internacional/"
+        },
+        {
+          "categoria": "Sustentabilidade",
+          "url": "https://estadao.com.br/arc/outboundfeeds/rss/sustentabilidade/"
+        },
+        {
+          "categoria": "Educação",
+          "url": "https://estadao.com.br/arc/outboundfeeds/rss/educacao/"
+        },
+        {
+          "categoria": "Ciência",
+          "url": "https://estadao.com.br/arc/outboundfeeds/rss/ciencia/"
+        },
+        {
+          "categoria": "Saúde",
+          "url": "https://estadao.com.br/arc/outboundfeeds/rss/saude/"
+        },
+        {
+          "categoria": "Esportes",
+          "url": "https://estadao.com.br/arc/outboundfeeds/rss/esportes/"
+        },
+        {
+          "categoria": "Cultura",
+          "url": "https://estadao.com.br/arc/outboundfeeds/rss/cultura/"
+        },
+        {
+          "categoria": "Últimas",
+          "url": "https://estadao.com.br/arc/outboundfeeds/rss/ultimas/"
+        }
+      ]
+    },
+    {
+      "nome": "G1 (Globo)",
+      "tipo": "Portal de Notícias",
+      "website": "https://g1.globo.com",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "http://g1.globo.com/dynamo/rss2.xml"
+        },
+        {
+          "categoria": "Política",
+          "url": "https://g1.globo.com/rss/g1/politica/"
+        },
+        {
+          "categoria": "Economia",
+          "url": "https://g1.globo.com/rss/g1/economia/"
+        },
+        {
+          "categoria": "Mundo",
+          "url": "https://g1.globo.com/rss/g1/mundo/"
+        },
+        {
+          "categoria": "Educação",
+          "url": "https://g1.globo.com/rss/g1/educacao/"
+        },
+        {
+          "categoria": "Ciência e Saúde",
+          "url": "https://g1.globo.com/rss/g1/ciencia-e-saude/"
+        },
+        {
+          "categoria": "Natureza",
+          "url": "https://g1.globo.com/rss/g1/natureza/"
+        },
+        {
+          "categoria": "Turismo e Viagem",
+          "url": "https://g1.globo.com/rss/g1/turismo-e-viagem/"
+        },
+        {
+          "categoria": "Carros",
+          "url": "https://g1.globo.com/rss/g1/carros/"
+        },
+        {
+          "categoria": "Brasil",
+          "url": "http://g1.globo.com/dynamo/brasil/rss2.xml"
+        }
+      ],
+      "feeds_regionais": [
+        {
+          "regiao": "São Paulo - Ribeirão Preto",
+          "url": "https://g1.globo.com/rss/g1/sp/ribeirao-preto-franca/"
+        }
+      ],
+      "padrao_url": "https://g1.globo.com/rss/g1/[categoria]/"
+    },
+    {
+      "nome": "UOL",
+      "tipo": "Portal de Notícias",
+      "website": "https://www.uol.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "http://rss.home.uol.com.br/index.xml"
+        },
+        {
+          "categoria": "Política",
+          "url": "https://noticias.uol.com.br/politica/rss.xml"
+        },
+        {
+          "categoria": "Notícias",
+          "url": "https://noticias.uol.com.br/rss.xml"
+        },
+        {
+          "categoria": "Internacional",
+          "url": "https://noticias.uol.com.br/internacional/rss.xml"
+        },
+        {
+          "categoria": "Educação",
+          "url": "https://educacao.uol.com.br/rss.xml"
+        },
+        {
+          "categoria": "Saúde",
+          "url": "https://noticias.uol.com.br/saude/rss.xml"
+        },
+        {
+          "categoria": "Cotidiano",
+          "url": "https://noticias.uol.com.br/cotidiano/rss.xml"
+        },
+        {
+          "categoria": "Eleições",
+          "url": "https://noticias.uol.com.br/eleicoes/rss.xml"
+        },
+        {
+          "categoria": "Carros",
+          "url": "https://uol.com.br/carros/rss.xml"
+        },
+        {
+          "categoria": "Economia - Empresas",
+          "url": "https://economia.uol.com.br/empresas/rss.xml"
+        },
+        {
+          "categoria": "Meio Ambiente",
+          "url": "https://uol.com.br/ecoa/rss.xml"
+        },
+        {
+          "categoria": "Televisão",
+          "url": "https://uol.com.br/splash/televisao/rss.xml"
+        }
+      ]
+    },
+    {
+      "nome": "R7",
+      "tipo": "Portal de Notícias",
+      "website": "https://www.r7.com",
+      "feeds": [
+        {
+          "categoria": "Notícias",
+          "url": "https://noticias.r7.com/feed.xml"
+        }
+      ]
+    },
+    {
+      "nome": "Agência Brasil (EBC)",
+      "tipo": "Agência de Notícias Pública",
+      "website": "https://agenciabrasil.ebc.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml"
+        },
+        {
+          "categoria": "Cultura",
+          "url": "https://agenciabrasil.ebc.com.br/rss/cultura/feed.xml"
+        },
+        {
+          "categoria": "Direitos Humanos",
+          "url": "https://agenciabrasil.ebc.com.br/rss/direitos-humanos/feed.xml"
+        },
+        {
+          "categoria": "Economia",
+          "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml"
+        },
+        {
+          "categoria": "Educação",
+          "url": "https://agenciabrasil.ebc.com.br/rss/educacao/feed.xml"
+        },
+        {
+          "categoria": "Esportes",
+          "url": "https://agenciabrasil.ebc.com.br/rss/esportes/feed.xml"
+        },
+        {
+          "categoria": "Geral",
+          "url": "https://agenciabrasil.ebc.com.br/rss/geral/feed.xml"
+        },
+        {
+          "categoria": "Internacional",
+          "url": "https://agenciabrasil.ebc.com.br/rss/internacional/feed.xml"
+        },
+        {
+          "categoria": "Justiça",
+          "url": "https://agenciabrasil.ebc.com.br/rss/justica/feed.xml"
+        },
+        {
+          "categoria": "Política",
+          "url": "https://agenciabrasil.ebc.com.br/rss/politica/feed.xml"
+        },
+        {
+          "categoria": "Saúde",
+          "url": "https://agenciabrasil.ebc.com.br/rss/saude/feed.xml"
+        },
+        {
+          "categoria": "Meio Ambiente",
+          "url": "https://agenciabrasil.ebc.com.br/rss/meio-ambiente/feed.xml"
+        }
+      ]
+    },
+    {
+      "nome": "Portal EBC",
+      "tipo": "Portal Público",
+      "website": "https://www.ebc.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "http://www.ebc.com.br/rss/feed.xml"
+        }
+      ]
+    },
+    {
+      "nome": "Correio Braziliense",
+      "tipo": "Jornal Regional - Distrito Federal",
+      "website": "https://www.correiobraziliense.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "https://www.correiobraziliense.com.br/feed/"
+        },
+        {
+          "categoria": "Mundo",
+          "url": "https://www.correiobraziliense.com.br/mundo/feed/"
+        },
+        {
+          "categoria": "Economia",
+          "url": "https://www.correiobraziliense.com.br/economia/feed/"
+        },
+        {
+          "categoria": "Política",
+          "url": "https://www.correiobraziliense.com.br/politica/feed/"
+        },
+        {
+          "categoria": "Ciência e Saúde",
+          "url": "https://www.correiobraziliense.com.br/ciencia-e-saude/feed/"
+        },
+        {
+          "categoria": "Brasil",
+          "url": "https://www.correiobraziliense.com.br/brasil/feed/"
+        },
+        {
+          "categoria": "Diversão e Arte",
+          "url": "https://www.correiobraziliense.com.br/diversao-e-arte/feed/"
+        },
+        {
+          "categoria": "Turismo",
+          "url": "https://www.correiobraziliense.com.br/turismo/feed/"
+        },
+        {
+          "categoria": "Tecnologia",
+          "url": "https://www.correiobraziliense.com.br/tecnologia/feed/"
+        },
+        {
+          "categoria": "Cidades DF",
+          "url": "https://www.correiobraziliense.com.br/cidades-df/feed/"
+        },
+        {
+          "categoria": "Direito e Justiça",
+          "url": "https://www.correiobraziliense.com.br/direito-e-justica/feed/"
+        }
+      ]
+    },
+    {
+      "nome": "Gazeta do Povo",
+      "tipo": "Jornal Regional - Paraná",
+      "website": "https://www.gazetadopovo.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "https://www.gazetadopovo.com.br/feed/"
+        }
+      ],
+      "pagina_rss": "https://www.gazetadopovo.com.br/rss/"
+    },
+    {
+      "nome": "Jornal do Comércio",
+      "tipo": "Jornal Regional - Rio Grande do Sul",
+      "website": "https://www.jornaldocomercio.com",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "https://www.jornaldocomercio.com/rss/"
+        }
+      ]
+    },
+    {
+      "nome": "Jornal de Brasília",
+      "tipo": "Jornal Regional - Distrito Federal",
+      "website": "https://jornaldebrasilia.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "https://jornaldebrasilia.com.br/feed/"
+        }
+      ]
+    },
+    {
+      "nome": "The Rio Times",
+      "tipo": "Jornal em Inglês - Rio de Janeiro",
+      "website": "https://riotimesonline.com",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "https://riotimesonline.com/feed/"
+        }
+      ]
+    },
+    {
+      "nome": "Brasil Wire",
+      "tipo": "Portal de Notícias em Inglês",
+      "website": "http://www.brasilwire.com",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "http://www.brasilwire.com/feed/"
+        }
+      ]
+    },
+    {
+      "nome": "InfoMoney",
+      "tipo": "Portal Especializado - Finanças",
+      "website": "https://www.infomoney.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "https://www.infomoney.com.br/feed/"
+        },
+        {
+          "categoria": "Mercados",
+          "url": "https://www.infomoney.com.br/mercados/feed/"
+        },
+        {
+          "categoria": "Últimas Notícias",
+          "url": "https://www.infomoney.com.br/ultimas-noticias/feed/"
+        },
+        {
+          "categoria": "Política",
+          "url": "https://www.infomoney.com.br/politica/feed/"
+        },
+        {
+          "categoria": "Economia",
+          "url": "https://www.infomoney.com.br/economia/feed/"
+        },
+        {
+          "categoria": "Mundo",
+          "url": "https://www.infomoney.com.br/mundo/feed/"
+        },
+        {
+          "categoria": "Carreira",
+          "url": "https://www.infomoney.com.br/carreira/feed/"
+        },
+        {
+          "categoria": "Consumo",
+          "url": "https://www.infomoney.com.br/consumo/feed/"
+        },
+        {
+          "categoria": "Onde Investir",
+          "url": "https://www.infomoney.com.br/onde-investir/feed/"
+        }
+      ]
+    },
+    {
+      "nome": "Valor Econômico",
+      "tipo": "Jornal Especializado - Economia",
+      "website": "https://www.valor.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "http://www.valor.com.br/rss/"
+        }
+      ]
+    },
+    {
+      "nome": "Valor International",
+      "tipo": "Jornal em Inglês - Economia",
+      "website": "https://valorinternational.globo.com",
+      "feeds": [
+        {
+          "categoria": "Business",
+          "url": "https://valorinternational.globo.com/feed/business/"
+        },
+        {
+          "categoria": "Economy",
+          "url": "https://valorinternational.globo.com/feed/economy/"
+        },
+        {
+          "categoria": "Environment",
+          "url": "https://valorinternational.globo.com/feed/environment/"
+        },
+        {
+          "categoria": "Agribusiness",
+          "url": "https://valorinternational.globo.com/feed/agribusiness/"
+        },
+        {
+          "categoria": "Politics",
+          "url": "https://valorinternational.globo.com/feed/politics/"
+        }
+      ]
+    },
+    {
+      "nome": "Globo Esporte",
+      "tipo": "Portal Especializado - Esportes",
+      "website": "https://globoesporte.globo.com",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "http://globoesporte.globo.com/ESP/Noticia/Rss/0,,AS0-4271,00.xml"
+        }
+      ]
+    },
+    {
+      "nome": "Repórter Brasil",
+      "tipo": "ONG Jornalística",
+      "website": "https://reporterbrasil.org.br",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "https://reporterbrasil.org.br/feed/"
+        },
+        {
+          "categoria": "Notícias",
+          "url": "http://reporterbrasil.org.br/categorias/noticias/feed/"
+        }
+      ]
+    },
+    {
+      "nome": "Notícias ao Minuto Brasil",
+      "tipo": "Portal de Notícias",
+      "website": "https://www.noticiasaominuto.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "https://www.noticiasaominuto.com.br/rss/"
+        }
+      ]
+    },
+    {
+      "nome": "Campo Grande News",
+      "tipo": "Jornal Regional - Mato Grosso do Sul",
+      "website": "https://www.campograndenews.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "https://www.campograndenews.com.br/feed/"
+        }
+      ]
+    },
+    {
+      "nome": "Correio 24 Horas",
+      "tipo": "Jornal Regional - Bahia",
+      "website": "https://www.correio24horas.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal",
+          "url": "https://www.correio24horas.com.br/feed/"
+        }
+      ]
+    },
+    {
+      "nome": "Banco Central do Brasil",
+      "tipo": "Instituição Governamental",
+      "website": "https://www.bcb.gov.br",
+      "feeds": [
+        {
+          "categoria": "Notícias",
+          "url": "https://www.bcb.gov.br/api/feed/sitebcb/sitefeeds/noticias"
+        }
+      ]
+    },
+    {
+      "nome": "Investing.com Brasil",
+      "tipo": "Portal Especializado - Finanças",
+      "website": "https://br.investing.com",
+      "feeds": [
+        {
+          "categoria": "Notícias",
+          "url": "https://br.investing.com/rss/news.rss"
+        }
+      ],
+      "pagina_rss": "https://br.investing.com/webmaster-tools/rss"
+    },
+    {
+      "nome": "GaúchaZH (Zero Hora)",
+      "tipo": "Jornal Regional - Rio Grande do Sul",
+      "website": "https://gauchazh.clicrbs.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal (provável)",
+          "url": "https://gauchazh.clicrbs.com.br/rss/",
+          "status": "não confirmado"
+        }
+      ]
+    },
+    {
+      "nome": "O Dia",
+      "tipo": "Jornal Regional - Rio de Janeiro",
+      "website": "https://odia.ig.com.br",
+      "feeds": [
+        {
+          "categoria": "Principal (provável)",
+          "url": "https://odia.ig.com.br/rss/",
+          "status": "não confirmado"
+        }
+      ]
+    }
+  ],
+  "estatisticas_por_categoria": {
+    "noticias_gerais": 25,
+    "politica": 12,
+    "economia": 11,
+    "esportes": 6,
+    "internacional": 8,
+    "ciencia_saude": 7,
+    "educacao": 5,
+    "cultura_entretenimento": 6,
+    "tecnologia": 3,
+    "meio_ambiente": 4,
+    "outros": 33
+  },
+  "fontes_pesquisa": [
+    "https://rss.feedspot.com/brazil_rss_feeds/",
+    "https://rss.feedspot.com/brazil_news_rss_feeds/",
+    "https://github.com/plenaryapp/awesome-rss-feeds",
+    "https://agenciabrasil.ebc.com.br/feed/",
+    "Sites oficiais dos jornais"
+  ],
+  "observacoes": [
+    "Alguns jornais grandes como O Globo não têm feeds RSS públicos facilmente acessíveis",
+    "A maioria dos portais segue padrões de URL como /feed/ ou /rss/",
+    "Jornais especializados em economia (InfoMoney, Valor) têm feeds bem organizados por categoria",
+    "Feeds regionais do G1 permitem acompanhar notícias por estado/cidade",
+    "Alguns feeds podem requerer verificação de funcionamento atual"
+  ]
+}
