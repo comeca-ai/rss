@@ -1,0 +1,116 @@
+{
+    "https://www.folha.uol.com.br": {
+        "feeds": [],
+        "note": "No valid feeds found"
+    },
+    "https://www.estadao.com.br": {
+        "feeds": [
+            {
+                "url": "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/geral/?body=%7B%22layout%22:%22google-news%22%7D",
+                "title": "Estadão | As Últimas Notícias do Brasil e do Mundo",
+                "description": "As principais e as últimas notícias do Brasil e do mundo com credibilidade na informação sobre política, economia, esportes, cultura, tecnologia, estilo de vida e muito mais.",
+                "items_count": 20
+            }
+        ]
+    },
+    "https://oglobo.globo.com": {
+        "feeds": [
+            {
+                "url": "https://oglobo.globo.com/rss/oglobo",
+                "title": "oglobo",
+                "description": "Fique atualizado com as principais notícias e acompanhe tudo o que está acontecendo no Brasil e no mundo. Acesse O GLOBO!",
+                "items_count": 100
+            },
+            {
+                "url": "https://oglobo.globo.com/rss.xml",
+                "title": "OGlobo",
+                "description": "No Description",
+                "items_count": 0
+            },
+            {
+                "url": "https://pox.globo.com/rss/oglobo/",
+                "title": "oglobo",
+                "description": "Fique atualizado com as principais notícias e acompanhe tudo o que está acontecendo no Brasil e no mundo. Acesse O GLOBO!",
+                "items_count": 100
+            },
+            {
+                "url": "https://oglobo.globo.com/rss",
+                "title": "OGlobo",
+                "description": "No Description",
+                "items_count": 0
+            }
+        ]
+    },
+    "https://g1.globo.com": {
+        "feeds": [],
+        "note": "No valid feeds found"
+    },
+    "https://gauchazh.clicrbs.com.br": {
+        "feeds": [],
+        "note": "No valid feeds found"
+    },
+    "https://www.correiobraziliense.com.br": {
+        "feeds": [],
+        "note": "No valid feeds found"
+    },
+    "https://www.em.com.br": {
+        "feeds": [],
+        "note": "No valid feeds found"
+    },
+    "https://www.gazetadopovo.com.br": {
+        "feeds": [],
+        "note": "No valid feeds found"
+    },
+    "https://www.jb.com.br": {
+        "feeds": [],
+        "note": "No valid feeds found"
+    },
+    "https://www.uol.com.br": {
+        "feeds": [
+            {
+                "url": "https://www.uol.com.br/rss.xml",
+                "title": "UOL - Seu universo online",
+                "description": "UOL, a maior empresa brasileira de conteúdo, serviços digitais e tecnologia com vários canais de jornalismo e diversas soluções para você ou seu negócio.",
+                "items_count": 121
+            }
+        ]
+    },
+    "https://www.brasildefato.com.br": {
+        "feeds": [
+            {
+                "url": "https://www.brasildefato.com.br/feed/",
+                "title": "Brasil de Fato",
+                "description": "Uma visão popular do Brasil e do mundo.",
+                "items_count": 99
+            },
+            {
+                "url": "https://www.brasildefato.com.br/comments/feed/",
+                "title": "Comentários sobre Brasil de Fato",
+                "description": "Uma visão popular do Brasil e do mundo.",
+                "items_count": 0
+            },
+            {
+                "url": "https://www.brasildefato.com.br/rss.xml",
+                "title": "Brasil de Fato",
+                "description": "Brasil de Fato",
+                "items_count": 50
+            },
+            {
+                "url": "https://www.brasildefato.com.br/rss",
+                "title": "Brasil de Fato",
+                "description": "Uma visão popular do Brasil e do mundo.",
+                "items_count": 99
+            },
+            {
+                "url": "https://www.brasildefato.com.br/feed",
+                "title": "Brasil de Fato",
+                "description": "Uma visão popular do Brasil e do mundo.",
+                "items_count": 99
+            }
+        ]
+    },
+    "https://www.agazeta.com.br": {
+        "feeds": [],
+        "note": "No valid feeds found"
+    }
+}
